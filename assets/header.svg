@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" fill="none" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <defs>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" y="2" fill="#c6ff3a" opacity="0.04"/>
+    </pattern>
+    <clipPath id="type1"><rect x="40" y="86" width="0" height="26"><animate attributeName="width" values="0;360;360;360" dur="4s" keyTimes="0;0.45;0.9;1" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type2"><rect x="40" y="150" width="0" height="44"><animate attributeName="width" values="0;0;520;520" dur="4s" keyTimes="0;0.5;0.95;1" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <!-- frame -->
+  <rect x="3" y="3" width="914" height="234" fill="#0a0a0b" stroke="#c6ff3a" stroke-width="3"/>
+  <rect x="3" y="3" width="914" height="234" fill="url(#scan)"/>
+
+  <!-- brutalist corner ticks -->
+  <path d="M3 28 V3 H28" stroke="#c6ff3a" stroke-width="6" fill="none"/>
+  <path d="M917 28 V3 H892" stroke="#c6ff3a" stroke-width="6" fill="none"/>
+  <path d="M3 212 V237 H28" stroke="#c6ff3a" stroke-width="6" fill="none"/>
+  <path d="M917 212 V237 H892" stroke="#c6ff3a" stroke-width="6" fill="none"/>
+
+  <!-- title bar -->
+  <rect x="3" y="3" width="914" height="30" fill="#c6ff3a"/>
+  <text x="20" y="24" fill="#0a0a0b" font-size="14" font-weight="700" letter-spacing="3">[ SECURE TERMINAL // ACCESS GRANTED ]</text>
+  <text x="836" y="24" fill="#0a0a0b" font-size="14" font-weight="700" letter-spacing="2">root@kali</text>
+
+  <!-- typed command -->
+  <g clip-path="url(#type1)">
+    <text x="40" y="106" fill="#8d8d85" font-size="18">root@kali:~$ </text>
+    <text x="160" y="106" fill="#ededea" font-size="18">./whoami --identity</text>
+  </g>
+
+  <!-- output name -->
+  <g clip-path="url(#type2)">
+    <text x="40" y="186" fill="#c6ff3a" font-size="42" font-weight="800" letter-spacing="2">ASHISH PARDESHI</text>
+  </g>
+
+  <!-- subtitle -->
+  <text x="40" y="216" fill="#4cc9f0" font-size="14" letter-spacing="1.5">&gt; Cybersecurity Engineer · Penetration Tester · OSINT · CTF Player</text>
+
+  <!-- blinking cursor -->
+  <rect x="566" y="156" width="14" height="34" fill="#c6ff3a">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
