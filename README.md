@@ -169,6 +169,9 @@ $ whoami
 
 ### ⚡ Recent Activity
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#1](https://github.com/cbitosc/HFT26-TEAM-25/pull/1) in [cbitosc/HFT26-TEAM-25](https://github.com/cbitosc/HFT26-TEAM-25)
+2. 🎉 Merged PR [#1](https://github.com/ashishpardeshi87/HFT26-TEAM-25/pull/1) in [ashishpardeshi87/HFT26-TEAM-25](https://github.com/ashishpardeshi87/HFT26-TEAM-25)
+3. 💪 Opened PR [#1](https://github.com/ashishpardeshi87/HFT26-TEAM-25/pull/1) in [ashishpardeshi87/HFT26-TEAM-25](https://github.com/ashishpardeshi87/HFT26-TEAM-25)
 <!--END_SECTION:activity-->
 
 ---
